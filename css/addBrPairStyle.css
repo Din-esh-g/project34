@@ -1,0 +1,230 @@
+
+html, body, div, span, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+abbr, address, cite, code,
+del, dfn, em, img, ins, kbd, q, samp,
+small, strong, sub, sup, var,
+b, i,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 12px;
+	vertical-align: baseline;
+	background: #cccccc;
+	font-style: normal;
+	font-family: Verdana, Arial;
+}
+
+div.logo {
+	overflow-y: hidden;
+	overflow-x: hidden;
+	height: 200px;
+}
+
+div.maintable {
+	padding-top: 8px;
+	padding-bottom: 14px;
+	padding-left: 4px;
+	padding-right: 4px;
+	border-left: 1px solid;
+	border-right: 1px solid;
+	min-width: 1150px;
+}
+
+h2.maintitle {
+	text-align: center;
+	font-family: "Avant Garde", Verdana;
+	font-size: 18px;
+	text-shadow: 2px 2px 3px gray;
+}
+
+
+tr {
+	font-style: normal;
+	font-family: Verdana, Arial;
+	font-size: 16px;
+}
+
+body {
+	line-height: 1;
+	min-width:1160px;
+	overflow: scroll;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+td {
+	padding: 10px;
+}
+
+hr {
+	display: block;
+	height: 1px;
+	border: 0;
+	border-top: 1px solid #cccccc;
+	margin: 1em 0;
+	padding: 0;
+}
+
+input, select {
+	vertical-align: middle;
+}
+
+
+
+header div table {
+	margin-left: 10px;
+	margin-right: 10px;
+	width: auto;
+	height: auto;
+}
+
+header div table td {
+	padding-right: 5px;
+}
+
+header fieldset {
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-top: 0.25em;
+	padding-bottom: 0.525em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+
+button.action {
+	vertical-align: middle;
+	line-height: 20px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	padding-left: 12px;
+	padding-right: 12px;
+	font-size: 12px;
+}
+
+body div {
+	/*  min-height: 80%; */
+	/*  max-height: 83%; */
+	/* overflow: auto; */
+}
+
+footer {
+	background-color: lightgrey;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	height: auto;
+	padding-bottom: 4px;
+}
+
+footer div table {
+	margin-top: 6px;
+	margin-bottom: 6px;
+	margin-left: 10px;
+	margin-right: 10px;
+	padding-bottom: 6px;
+	vertical-align: middle !important;
+	width: auto;
+	height: auto;
+}
+
+footer fieldset {
+	display: block;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	padding-top: 0.35em;
+	padding-bottom: 0.625em;
+	padding-left: 0.75em;
+	padding-right: 0.75em;
+	border: 2px groove(internal value);
+}
+
+div.div-footer {
+	vertical-align: middle;
+}
+
+table.tb-footer {
+	vertical-align: middle !important;
+}
+
+tr.tr-footer {
+	vertical-align: middle;
+}
+
+td.tr-footer {
+	vertical-align: middle;
+}
+
+td.filter-button {
+	text-align: right;
+}
+
+img.mouselogo {
+	padding-top: 5px;
+	padding-right: 3px;
+	vertical-align: middle;
+}
+
+img.ritalogo {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 8px; 
+	padding-right: 8px; 
+	vertical-align: middle;
+}
+
+button.update {
+	vertical-align: middle; .
+	selected {border: 1px;
+}
+
+
+table.animals {
+	border-collapse: collapse;
+	border-spacing: 5px;
+	border: 1px solid black;
+	width: auto;
+	min-width:1140px;
+}
+
+tr.animals {
+	transition: all linear 0.5s;
+	font-style: normal;
+	text-align: center;
+	vertical-align: middle;
+	
+	/* background-color: #FFFFFF; */
+}
+
+th.animals {
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 2px;
+	padding: 5px;
+	border: 1px dotted black;
+}
